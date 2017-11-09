@@ -1,0 +1,24 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import util.ConnectionProvider;
+
+public class UserDetailDao {
+	public ResultSet getUserDetails(){
+
+		ResultSet rs = null;
+		try {
+			Connection connection = ConnectionProvider.getCon();
+			Statement statement = null;
+			statement = connection.createStatement();
+			String QueryString = "SELECT * from REGISTERED_USERS";
+			rs = statement.executeQuery(QueryString);
+		} catch (Exception e) {
+
+		}
+		return rs;
+	}
+}

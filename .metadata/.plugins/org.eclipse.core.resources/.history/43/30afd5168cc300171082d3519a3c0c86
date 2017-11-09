@@ -1,0 +1,21 @@
+package bean;
+
+import java.util.Date;
+
+import bean.UserBean.Role;
+
+public class UserBean {
+	enum Role{
+		ADMIN, USER;
+	}
+	String firstName;
+	String lasttName;
+	String email;
+	String address;
+	String phone;
+	String userName;
+	String password;
+	Date dob;
+	Role role;
+
+}

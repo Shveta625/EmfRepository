@@ -1,0 +1,22 @@
+<%@page import="dao.LoginDao"%>
+<jsp:useBean id="obj" class="bean.LoginBean"/>
+
+<jsp:setProperty property="*" name="obj"/>
+
+<%
+String status=LoginDao.validate(obj);
+System.out.print(status);
+if(status.equalsIgnoreCase("admin")){
+response.sendRedirect("RegisterUser.jsp");
+}
+else if(status.equalsIgnoreCase("user")){
+	response.sendRedirect("UserDetail.jsp");
+	}
+else
+{
+out.print("Authentication failed");
+%>
+<jsp:include page="Login.jsp"></jsp:include>
+<%
+}
+%>

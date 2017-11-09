@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:PurchaseExample="www.purchase.com" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ecore:nsPrefix="PurchaseExample" ecore:package="PurchaseExample" targetNamespace="www.purchase.com">
+  <xsd:import namespace="http://www.eclipse.org/emf/2002/Ecore" schemaLocation="platform:/plugin/org.eclipse.emf.ecore/model/Ecore.xsd"/>
+  <xsd:element ecore:ignore="true" name="PurchaseOrder" type="PurchaseExample:PurchaseOrder"/>
+  <xsd:element ecore:ignore="true" name="Item" type="PurchaseExample:Item"/>
+  <xsd:complexType name="PurchaseOrder">
+    <xsd:attribute name="billTo" type="ecore:EString"/>
+    <xsd:attribute name="shipTo" type="ecore:EString"/>
+    <xsd:attribute ecore:reference="PurchaseExample:Item" name="items">
+      <xsd:simpleType>
+        <xsd:list itemType="xsd:anyURI"/>
+      </xsd:simpleType>
+    </xsd:attribute>
+  </xsd:complexType>
+  <xsd:complexType name="Item">
+    <xsd:attribute ecore:unsettable="false" name="price" type="ecore:EFloat"/>
+    <xsd:attribute ecore:unsettable="false" name="quantity" type="ecore:EInt"/>
+    <xsd:attribute name="name" type="ecore:EString"/>
+  </xsd:complexType>
+</xsd:schema>

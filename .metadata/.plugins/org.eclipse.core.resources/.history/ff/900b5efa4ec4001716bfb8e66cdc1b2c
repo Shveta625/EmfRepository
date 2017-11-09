@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<script>
+		function showForm(a) {
+			if (a==document.getElementById("form2")) {
+				alert(document.getElementById("form1").style.display=="block");
+				document.getElementById("form1").style.display = "none";
+				document.getElementById("form2").style.display = "block";
+			} else {
+				document.getElementById("form2").style.display = "none";
+				document.getElementById("form3").style.display = "block";
+			}
+		}
+
+		submitForms = function() {
+			document.forms["form1"].submit();
+			document.forms["form2"].submit();
+			document.forms["form3"].submit();
+			return true;
+		}
+	</script>
+
+	<form id="form1" action="">
+		First name:<input type="text" name="firstName"> <br>
+		Lastname:<input type="text" name="lastName"> <br>
+		Role: <select name="role">
+			<option value="Admin">Admin</option>
+			<option value="User">User</option>
+		</select> <br>
+		DOB:<input type="date" name="dob">
+		Age:<input type="text" name="age">
+		<button onclick="showForm(form2)">Next</button>
+	</form>
+
+	<form id="form2" action="showForm(form3)"  style="display:none;">
+		Address:<input type="text" name="address"> <br>
+		Phone:<input type="text" name="phone"> <br>
+		Email:<input type="text" name="email"> <br>		
+		<button onclick="showForm(form3)">Next</button>
+	</form>
+
+	<form id="form3" action=""  style="display:none;">
+		Username:<input type="text" name="username"> <br>
+		Password:<input type="text" name="password"> <br>
+		<input type="button" name="submit">
+	</form>
+
+</body>
+</html>

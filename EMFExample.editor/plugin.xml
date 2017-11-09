@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated PurchaseExample -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="PurchaseExample.presentation.PurchaseExampleModelWizardID"
+            name="%_UI_PurchaseExampleModelWizard_label"
+            class="PurchaseExample.presentation.PurchaseExampleModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/PurchaseExampleModelFile.gif">
+         <description>%_UI_PurchaseExampleModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated PurchaseExample -->
+      <editor
+            id="PurchaseExample.presentation.PurchaseExampleEditorID"
+            name="%_UI_PurchaseExampleEditor_label"
+            icon="icons/full/obj16/PurchaseExampleModelFile.gif"
+            extensions="purchaseexample"
+            class="PurchaseExample.presentation.PurchaseExampleEditor"
+            contributorClass="PurchaseExample.presentation.PurchaseExampleActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

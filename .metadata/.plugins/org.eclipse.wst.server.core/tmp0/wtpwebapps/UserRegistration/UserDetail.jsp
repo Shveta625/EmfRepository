@@ -1,0 +1,33 @@
+<%@page import="org.apache.tomcat.jni.User"%>
+<%@page import="bean.UserBean"%>
+<%@page import="dao.UserDetailDao"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.DriverManager"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@page import="dao.LoginDao"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>User Details</h2>
+
+	<form action="UserDetailServlet" method="post">
+		First name:<input type="text" id="firstName" name="firstName"
+			value=<%=((UserBean) request.getSession().getAttribute("userDetails")).getFirstName()%>>
+		<br> Role:<input type="text" id="role" name="role"
+			value=<%=((UserBean) request.getSession().getAttribute("userDetails")).getRole()%>>
+		<br> Username:<input type="text" id="username" name="username"
+			value=<%=((UserBean) request.getSession().getAttribute("userDetails")).getUsername()%>>
+		<br> Password:<input type="password" id="password" name="password"
+			value=<%=((UserBean) request.getSession().getAttribute("userDetails")).getPassword()%>>
+		<br>
+	</form>
+
+
+</body>
+</html>

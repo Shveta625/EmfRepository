@@ -1,0 +1,62 @@
+package bean;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class DBConnection {
+	// JDBC driver name and database URL
+	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+	static final String DB_URL = "jdbc:mysql://localhost/users";
+
+	// Database credentials
+	static final String USER = "root";
+	static final String PASS = "root";
+
+	public static void main(String[] args) {
+		Connection conn = null;
+		Statement stmt = null;
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+
+			System.out.println("Connecting to a selected database...");
+			conn = DriverManager.getConnection(DB_URL, USER, PASS);
+			System.out.println("Connected database successfully...");
+
+			System.out.println("Creating table in given database...");
+			stmt = conn.createStatement();
+
+			String sql = "CREATE TABLE REGISTERED_USERS " + "(ID INTEGER NOT NULL AUTO_INCREMENT, " + " FIRST_NAME VARCHAR(255), "
+					+ " LAST_NAME VARCHAR(255), " + " DOB DATE, " + " AGE INTEGER, " + " ADDRESS VARCHAR(255), "
+					+ " PHONE INTEGER, " + " EMAIL VARCHAR(255), " + " ROLE VARCHAR(255), " + " USERNAME VARCHAR(255), "
+					+ " PASSWORD VARCHAR(255), " + " PRIMARY KEY ( ID ))";
+
+			stmt.executeUpdate(sql);
+			sql = "INSERT INTO REGISTERED_USERS "
+					+ "(FIRST_NAME, LAST_NAME, DOB, AGE, ADDRESS, PHONE, EMAIL, ROLE, USERNAME, PASSWORD) "
+					+ "VALUES (Shveta, Patyal, TO_DATE('25/07/1992', 'DD/MM/YYYY'), 25, ABC, 9999999999, shveta@gmail.com, admin, admin, admin ";
+
+			stmt.executeUpdate(sql);
+			System.out.println("Created table in given database...");
+		} catch (SQLException se) {
+			se.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (stmt != null)
+					conn.close();
+			} catch (SQLException se) {
+			}
+			try {
+				if (conn != null)
+					conn.close();
+			} catch (SQLException se) {
+				se.printStackTrace();
+			}
+		}
+		System.out.println("Goodbye!");
+	}
+
+}

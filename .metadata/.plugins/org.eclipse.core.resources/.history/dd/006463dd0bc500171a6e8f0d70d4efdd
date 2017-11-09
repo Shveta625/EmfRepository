@@ -1,0 +1,31 @@
+package servlets;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import bean.LoginBean;
+import dao.LoginDao;
+
+public class LoginServlet extends HttpServlet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		LoginBean loginBean = new LoginBean();
+		loginBean.setUsername(request.getParameter("username"));
+		loginBean.setPassword(request.getParameter("password"));
+		String user = LoginDao.validate(loginBean);
+		if (user.equalsIgnoreCase("admin")) {
+			response.sendRedirect("RegisterUser.jsp");
+		} else {
+			System.out.print("Sorry, username or password error");
+		}
+	}
+}

@@ -1,0 +1,27 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import javax.servlet.http.HttpSession;
+
+import util.ConnectionProvider;
+
+public class UserDetailDao {
+	public static ResultSet getUserDetails() {
+
+		ResultSet rs = null;
+		try {
+			Connection connection = ConnectionProvider.getCon();
+			Statement statement = null;
+			statement = connection.createStatement();
+//			HttpSession session = request.getSession(true);
+			String QueryString = "SELECT * from REGISTERED_USERS";
+			rs = statement.executeQuery(QueryString);
+		} catch (Exception e) {
+
+		}
+		return rs;
+	}
+}

@@ -1,0 +1,1234 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: MZGbDL4Di5zn3Wi5SJVvFLfeAxw=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: +IHjnZeL8eAfF8BBNGpOXWdOkd4=
+
+Name: javadoc/org/eclipse/net4j/acceptor/IAcceptor.html
+SHA1-Digest: fM6DZKHZ67ZMynheHUva6aio/Zk=
+
+Name: javadoc/org/eclipse/net4j/jvm/class-use/IJVMChannel.html
+SHA1-Digest: ycr+wwA9uJcJOY6Z88N1t4ra6/A=
+
+Name: about.ini
+SHA1-Digest: mVAmrhORKtx6G9nxKmOS4UDCPJI=
+
+Name: javadoc/org/eclipse/net4j/tcp/package-frame.html
+SHA1-Digest: cU/azSo6xvC0M2VwytxLeN61oIw=
+
+Name: javadoc/org/eclipse/net4j/class-use/Net4jUtil.html
+SHA1-Digest: KC5JV3dMewmRKmZ5FSZoLVDfiZQ=
+
+Name: javadoc/org/eclipse/net4j/Net4jUtil.html
+SHA1-Digest: Vmfs5DC4DMA+WCVBeyq2v5P0Fo4=
+
+Name: javadoc/org/eclipse/net4j/buffer/IBufferPool.Introspection.html
+SHA1-Digest: Y4vUOMgcTBzZnVXzd1E/fWgLn/k=
+
+Name: images/formatter-tree.gif
+SHA1-Digest: NsTLv/khZLvih4F3mbRuhKKqoyQ=
+
+Name: javadoc/org/eclipse/net4j/tcp/ssl/package-use.html
+SHA1-Digest: M8U93RcLZawxO0g9cl4QAr3vMsQ=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/InternalBuffer.html
+SHA1-Digest: bgkPOoQxAJEx1EOLZZYP8by9eg4=
+
+Name: javadoc/org/eclipse/spi/net4j/InternalConnector.html
+SHA1-Digest: qEq06o/ti0GqyfoIc5Eur5ETNLA=
+
+Name: javadoc/org/eclipse/net4j/signal/MonitorProgressIndication.html
+SHA1-Digest: wos8j7KJlyP5DIlDtic6I/3Bh94=
+
+Name: javadoc/org/eclipse/net4j/signal/RequestWithMonitoring.html
+SHA1-Digest: uvTpb0LpQDW5fKHb7Iws+f85cQ4=
+
+Name: javadoc/org/eclipse/spi/net4j/ChannelMultiplexer.html
+SHA1-Digest: 54H8h9M4/wx5WBgwnlQC0LnjUBM=
+
+Name: javadoc/org/eclipse/net4j/connector/package-frame.html
+SHA1-Digest: LVjWo4yxeWcnUULCcSbQtjntfyo=
+
+Name: javadoc/org/eclipse/net4j/http/common/package-use.html
+SHA1-Digest: d8VTqW5xnZJjS44Zy72d1P1o+9c=
+
+Name: javadoc/org/eclipse/spi/net4j/package-frame.html
+SHA1-Digest: f3xdJ1tGpCbZ8lJ76wLNclTIQmQ=
+
+Name: javadoc/org/eclipse/net4j/channel/class-use/ChannelInputStream.h
+ tml
+SHA1-Digest: SMgAjeGSouZGt7YHBupKF6gsePg=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/SignalCounter.html
+SHA1-Digest: 7n/5HwHS55/n1c4Vw/ocFkkyl7k=
+
+Name: images/editor-rst.png
+SHA1-Digest: YiJ7iJqWUuRtkPjvSmjfVOQptlU=
+
+Name: images/editor-max-hover.png
+SHA1-Digest: /dwmw22EIv9iiummSgmDbP6HqmM=
+
+Name: javadoc/org/eclipse/net4j/signal/SignalScheduledEvent.html
+SHA1-Digest: SB7xp6nXY1mfXicp4OMKFb/hoBc=
+
+Name: javadoc/serialized-form.html
+SHA1-Digest: x7cvKMaj/S6yUL3GcKBP34z85Fg=
+
+Name: javadoc/org/eclipse/net4j/ui/package-frame.html
+SHA1-Digest: k3LIK4SC6obvkTFzf3S8+qofwts=
+
+Name: javadoc/org/eclipse/net4j/tcp/class-use/TCPUtil.html
+SHA1-Digest: mpMjSrVzuDVQMp5liPMBvL0zjKg=
+
+Name: javadoc/org/eclipse/net4j/signal/MonitorCanceledIndication.html
+SHA1-Digest: FZ2ooW8NDnxC9Nl5Wh+destWaPo=
+
+Name: javadoc/org/eclipse/net4j/channel/ChannelOutputStream.html
+SHA1-Digest: jpVGeQH8rvRVkVQk6U30iJpgrrQ=
+
+Name: javadoc/org/eclipse/net4j/http/server/class-use/INet4jTransportS
+ ervlet.html
+SHA1-Digest: RLlhACz9DUJGncq3oxTUoAfNXeg=
+
+Name: javadoc/org/eclipse/net4j/ui/AcceptorContentProvider.html
+SHA1-Digest: Hvu1DrMmiAlczUQNex28m3CPSkk=
+
+Name: javadoc/org/eclipse/net4j/connector/class-use/ConnectorState.htm
+ l
+SHA1-Digest: 0Wnw3MFQLHulog/pN9ZioDQDRvI=
+
+Name: javadoc/org/eclipse/net4j/tcp/package-summary.html
+SHA1-Digest: 4z8otmr2hLlCgtTY0002Zp+q4OU=
+
+Name: javadoc/org/eclipse/net4j/connector/class-use/ConnectorException
+ .html
+SHA1-Digest: bILOU0kXQ9yZe9xNvRacWRDzEKs=
+
+Name: javadoc/org/eclipse/spi/net4j/InternalBuffer.html
+SHA1-Digest: 0Epa2C/7Gm+4+eGFiJBrfK2MFJY=
+
+Name: about.properties
+SHA1-Digest: MNivgEa0TvogFYkbfInvoXrWfXM=
+
+Name: javadoc/org/eclipse/net4j/tcp/class-use/ITCPConnector.html
+SHA1-Digest: d73b6emTZYUxDAwJSnwiCZwViIE=
+
+Name: javadoc/org/eclipse/net4j/jvm/class-use/IJVMConnector.html
+SHA1-Digest: rdz5/75h1SCAGZl7WvwxP0ErCng=
+
+Name: javadoc/org/eclipse/net4j/tcp/ITCPConnector.html
+SHA1-Digest: iKaVbCc4Rnm/tjDZEyRcZYyhTDw=
+
+Name: javadoc/org/eclipse/net4j/jvm/IJVMConnector.html
+SHA1-Digest: hgyNsnuiWSbJgLXgInnEt01kKnM=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/SignalReactor.html
+SHA1-Digest: fUalww2Toh0OCoFjfYyY4Ao55lE=
+
+Name: images/callout-4.png
+SHA1-Digest: QZ7BytvFR2Id60iFsfpmPyN0CH0=
+
+Name: images/editor-bottom-left.png
+SHA1-Digest: X5uZjKs1MifIXpkkkctEEpfxNb4=
+
+Name: javadoc/allclasses-noframe.html
+SHA1-Digest: w1PMpD4CtYQhIbp63u3C/0Xbkhc=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/Channel.html
+SHA1-Digest: pjGUx4/Nr0I1qBg0lOel1BUY0N4=
+
+Name: javadoc/org/eclipse/net4j/ILocationAware.Location.html
+SHA1-Digest: qG2O18cd3c6PFpo8qgQYgy85xPY=
+
+Name: images/callout-8.png
+SHA1-Digest: XO7xV6lQQfFfkA4p5gyMMmEX1BM=
+
+Name: javadoc/org/eclipse/net4j/class-use/TransportInjector.html
+SHA1-Digest: H+fjwybISQCsd4osIM9H7mMvP14=
+
+Name: javadoc/org/eclipse/net4j/signal/heartbeat/class-use/HeartBeatPr
+ otocol.Server.TimerInjector.html
+SHA1-Digest: Iey5PLciF3L7JEm4EucynlHrocw=
+
+Name: images/editor-top-left-java.png
+SHA1-Digest: 6iSPIPkHOWz4dG9fJLYPfpPaOKs=
+
+Name: images/editor-2.png
+SHA1-Digest: iBR98JQ9FFbLjeGZo6NbQdlCwg8=
+
+Name: javadoc/resources/background.gif
+SHA1-Digest: EWjlxlJujhJ1wwx7ENhQIDnNUFw=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/RequestWithConfirmati
+ on.html
+SHA1-Digest: NbF4TYeC5D4uddJE7D6+xFC/Vho=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/ISignalProtocol.html
+SHA1-Digest: tj889jLnlS/46Msy/V+Ssd2rbMw=
+
+Name: html/reference/schema/index.html
+SHA1-Digest: jYYTmh+TMI7PFHZN0x3Vc4sEYpA=
+
+Name: javadoc/org/eclipse/net4j/channel/package-summary.html
+SHA1-Digest: urUmly0ajbo7sbj7p5H6aJnOZzk=
+
+Name: javadoc/org/eclipse/net4j/signal/RemoteException.html
+SHA1-Digest: 1OpBoECASuScOX4QKQiSJYIqJmo=
+
+Name: javadoc/org/eclipse/net4j/ILocationAware.html
+SHA1-Digest: O/XXVDMPih98VZ847JHYbigoLf4=
+
+Name: javadoc/org/eclipse/spi/net4j/ConnectorFactory.html
+SHA1-Digest: 0CWWsTteo0gaGDK5+Pz/p+nP89I=
+
+Name: javadoc/org/eclipse/net4j/signal/security/AuthenticationRequest.
+ html
+SHA1-Digest: WA7KkYVhsHRaIbB+aTKtu24d0PI=
+
+Name: javadoc/script.js
+SHA1-Digest: owowsMNCCdnscxghGxlKsFxUX4I=
+
+Name: images/editor-rst-hover.png
+SHA1-Digest: KWDnel+MlBPLqYAn87TQ83Uy59A=
+
+Name: javadoc/org/eclipse/net4j/signal/SignalFinishedEvent.html
+SHA1-Digest: +OeLmMq4JIoFCoUZrjUXCqfZ4D4=
+
+Name: javadoc/org/eclipse/net4j/ContainerProtocolProvider.Client.html
+SHA1-Digest: M2nlMzJpkQ6HwQjuSuU46cH9SYA=
+
+Name: javadoc/org/eclipse/net4j/TransportConfigurator.html
+SHA1-Digest: 1Umz3SBbZCOCyt69VI+urEaytxY=
+
+Name: javadoc/org/eclipse/net4j/protocol/class-use/IProtocol.html
+SHA1-Digest: berGWjcSiJN/B7v2ulVht0KdN8k=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/SignalProtocol.Timeou
+ tChangedEvent.html
+SHA1-Digest: WwO9tv26ecy7EDV+mtel1jiTTag=
+
+Name: javadoc/org/eclipse/spi/net4j/InternalAcceptor.html
+SHA1-Digest: juL8fjwllbrHbUGcfIuniDHyfLg=
+
+Name: javadoc/org/eclipse/net4j/http/server/class-use/IHTTPAcceptor.ht
+ ml
+SHA1-Digest: EFTHe0AVU3LdMNBV7WBqCQkI7v8=
+
+Name: javadoc/org/eclipse/net4j/signal/wrapping/package-frame.html
+SHA1-Digest: 2Aj/XN5s+zN8af/0bC1U3jbex8Y=
+
+Name: images/forward.png
+SHA1-Digest: 3LN+QRgi10keT+9zYu6Syn4cm2Q=
+
+Name: javadoc/org/eclipse/net4j/tcp/class-use/ITCPPassiveSelectorListe
+ ner.html
+SHA1-Digest: FA5FYnhIfg5fDwnOBGfiaMcUiGU=
+
+Name: javadoc/org/eclipse/net4j/tcp/TCPUtil.html
+SHA1-Digest: o8BGCohboYHdk3uIc6W9iKxC4ko=
+
+Name: javadoc/org/eclipse/net4j/signal/heartbeat/class-use/HeartBeatPr
+ otocol.Server.html
+SHA1-Digest: G/xA+X2/y9P55gxSidVp7oxcFgU=
+
+Name: toc.xmi
+SHA1-Digest: G+GhGpZa0vsTqpC1XfQ5/zdZMkU=
+
+Name: images/editor-bottom.png
+SHA1-Digest: btK9g5Go2n5L+gGOkkutmB/Xeys=
+
+Name: html/reference/index.html
+SHA1-Digest: ebTiiq8jTiOrQONFMts9OLaltJs=
+
+Name: images/minus.gif
+SHA1-Digest: wKjs47pfw64bDsYIeiO0wbTkajE=
+
+Name: javadoc/org/eclipse/net4j/acceptor/package-frame.html
+SHA1-Digest: PcnhMJx9it0ap/OCIE7noOxzGyQ=
+
+Name: toc.xml
+SHA1-Digest: XVM+vCNWUVVsCZYHRD3ZXJlj+KA=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/IndicationWithMonitor
+ ing.html
+SHA1-Digest: wqNTD0pIT2ZtvVtfo44r0ZzdyY4=
+
+Name: javadoc/org/eclipse/net4j/class-use/ILocationAware.html
+SHA1-Digest: WmcBZicC2TR8R17EVUzd2FuVwh8=
+
+Name: intro/css/graphics/net4j.gif
+SHA1-Digest: tUe/Kzs974vUsB+SDXKUJZ1fgpk=
+
+Name: javadoc/org/eclipse/net4j/signal/confirmation/package-use.html
+SHA1-Digest: rXhlCAq4LISPy5oMWvaL4aSCYic=
+
+Name: javadoc/org/eclipse/net4j/signal/heartbeat/class-use/HeartBeatPr
+ otocol.html
+SHA1-Digest: Rr033GTRt+72NUcFknCfaaGoIfM=
+
+Name: javadoc/org/eclipse/spi/net4j/ServerProtocolFactory.html
+SHA1-Digest: v1rer8b1jSbT+wIUzXigHzlZZyg=
+
+Name: javadoc/org/eclipse/net4j/http/common/IHTTPConnector.html
+SHA1-Digest: sNoYfMHzRzhrDYMh0Gveck8lvVE=
+
+Name: javadoc/org/eclipse/net4j/signal/wrapping/class-use/XORStreamWra
+ pperInjector.html
+SHA1-Digest: a328tNGlfU+3hTBvMFqOPMm1DQk=
+
+Name: javadoc/org/eclipse/net4j/channel/ChannelInputStream.html
+SHA1-Digest: vvEGOPSoa5xRapshZjWu3dpS1/k=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/ChannelMultiplexer.html
+SHA1-Digest: DfElKvPnc4aX6qcjMfaYF9EeMvs=
+
+Name: images/plugin.gif
+SHA1-Digest: Ej7wfouTLzF0nivvTB2kTaq7bxw=
+
+Name: javadoc/org/eclipse/net4j/connector/package-use.html
+SHA1-Digest: 0Zvq5e1Rv0OKAFzxP/ItnT+MUXc=
+
+Name: javadoc/org/eclipse/net4j/signal/wrapping/class-use/StreamWrappe
+ rInjector.html
+SHA1-Digest: WIQv+8xLAMBJI8/yUjNNk3BalJk=
+
+Name: javadoc/org/eclipse/net4j/ui/class-use/FactoryTypeContentProvide
+ r.html
+SHA1-Digest: ib1anFUte7pAooqn5h4eWzREhUg=
+
+Name: org/eclipse/net4j/doc/reference/schema/package-info.class
+SHA1-Digest: YvVxT5gEBQ5EbPFac131+oexRM4=
+
+Name: images/editor-left.png
+SHA1-Digest: j7qTHQgIvRyMuBjsgv7yD8UU+Ok=
+
+Name: javadoc/org/eclipse/net4j/channel/package-use.html
+SHA1-Digest: TfSQDWIRslx1b6Rji7RR2tFHXUQ=
+
+Name: org/eclipse/net4j/doc/online/Wiki.class
+SHA1-Digest: eCfVmHxBFFLfKWfoJSe0NiIeo20=
+
+Name: images/formatter-java.gif
+SHA1-Digest: yqMPYRCD9FurphmnkcxP+UxqaEI=
+
+Name: javadoc/org/eclipse/net4j/class-use/ITransportConfig.html
+SHA1-Digest: vPq1tpQzZ4d7wynyKmujCGrHn7o=
+
+Name: javadoc/org/eclipse/net4j/buffer/class-use/IBufferHandler.html
+SHA1-Digest: S68F/E4ONJc2/sr8RduR37M2yEU=
+
+Name: javadoc/org/eclipse/net4j/signal/security/class-use/Authenticati
+ ngSignalProtocol.html
+SHA1-Digest: D2StWha+rMqEXUNm0Qbtz/F/IgM=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/IndicationWithRespons
+ e.html
+SHA1-Digest: UuKsl9kclwdpjeJPwzKm2SuhPkQ=
+
+Name: javadoc/org/eclipse/net4j/protocol/class-use/ProtocolVersionExce
+ ption.html
+SHA1-Digest: z2jSAAiyk0kpFGM9B3fz7dPVi/0=
+
+Name: javadoc/org/eclipse/net4j/signal/heartbeat/HeartBeatProtocol.Ser
+ ver.TimerInjector.html
+SHA1-Digest: hQyZZc3ySZ+bY/x3Y8JLIMpds28=
+
+Name: javadoc/org/eclipse/net4j/buffer/package-use.html
+SHA1-Digest: IcBKfVWQrePrHhKsjiTA6o/pNMU=
+
+Name: javadoc/org/eclipse/net4j/http/server/package-frame.html
+SHA1-Digest: aW50CobV3wbeEfePaopiqtjNSlo=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: cUI4TuIhS/EglMcpE4HjVMudSSU=
+
+Name: javadoc/org/eclipse/spi/net4j/AcceptorFactory.html
+SHA1-Digest: cjqPThz9BBge40Iqbd0u1W8ntHs=
+
+Name: about.mappings
+SHA1-Digest: dy3NJOD3tg8Sp2hVtBd7bntvA24=
+
+Name: javadoc/overview-frame.html
+SHA1-Digest: PPdLg9sYJGjAylC8vJDQ7KDVQpw=
+
+Name: javadoc/org/eclipse/net4j/jvm/class-use/JVMUtil.html
+SHA1-Digest: RRuSwTtPE4L0gEclx2aXS801UUo=
+
+Name: javadoc/org/eclipse/net4j/buffer/class-use/BufferState.html
+SHA1-Digest: l9lOylYhylrhGyPCjMAZ6p7vTE4=
+
+Name: javadoc/org/eclipse/net4j/buffer/BufferState.html
+SHA1-Digest: xrTvb2VsPenFf1zlTqiFQ0EZ7L8=
+
+Name: javadoc/org/eclipse/net4j/jvm/package-use.html
+SHA1-Digest: CmAyyP1LXQXRv1Lu/JpVzjX/sb0=
+
+Name: javadoc/resources/Net4j-Multiplexing.png
+SHA1-Digest: YV8T7BBoupE0g1p/Ncz83g01eQU=
+
+Name: javadoc/org/eclipse/net4j/channel/IChannelMultiplexer.html
+SHA1-Digest: y7ldewEwShGwgDmzZnK+S68Up04=
+
+Name: javadoc/org/eclipse/net4j/signal/confirmation/package-summary.ht
+ ml
+SHA1-Digest: C01GAMVV21fOGZ600FysYC9OCws=
+
+Name: images/editor-max.png
+SHA1-Digest: 1+lmtiYBTvCgLwmn1Neh0Hf8ZlQ=
+
+Name: javadoc/org/eclipse/net4j/signal/confirmation/class-use/Confirma
+ tionRequest.html
+SHA1-Digest: dL6RV+swey70RA1/a3D8y6nkx9c=
+
+Name: javadoc/org/eclipse/net4j/signal/IndicationWithResponse.html
+SHA1-Digest: h7UZGAhynkN4HSLcH81F9N6msCM=
+
+Name: javadoc/org/eclipse/net4j/signal/confirmation/ConfirmationReques
+ t.html
+SHA1-Digest: /Cp/E2uHJy+ELjZ6z244SlpPaAc=
+
+Name: images/callout-3.png
+SHA1-Digest: LdeaKZHJ3W2WSg51lz9f+29LnwE=
+
+Name: org/eclipse/net4j/doc/reference/schema/Schemadoc.class
+SHA1-Digest: qOU3PvQ5G1z+3/w9vGQLsAZJ8Qc=
+
+Name: org/eclipse/net4j/doc/reference/api/package-info.class
+SHA1-Digest: kKj/oXlyeRzdYwCX4gp5DWrszpU=
+
+Name: images/callout-7.png
+SHA1-Digest: De8IWAAhrMTjUR68MgLUnw85kKg=
+
+Name: javadoc/org/eclipse/spi/net4j/Channel.html
+SHA1-Digest: YRBzoIl4reqWWZE0En3mIupfYRg=
+
+Name: javadoc/org/eclipse/net4j/tcp/ssl/class-use/SSLUtil.html
+SHA1-Digest: 41LyFLiAFF1x/35O0vOVDVjc04c=
+
+Name: javadoc/org/eclipse/net4j/package-summary.html
+SHA1-Digest: lwd1FEB4A0mcW672dVL3N6vENkc=
+
+Name: javadoc/org/eclipse/net4j/tcp/TCPUtil.ConnectorData.html
+SHA1-Digest: WFfAxk94m2gqfWX5HCpeNdJHb+A=
+
+Name: images/editor-1.png
+SHA1-Digest: oHv6OrDwqcnsGJ3mIfjzcl1iLIQ=
+
+Name: javadoc/org/eclipse/spi/net4j/package-use.html
+SHA1-Digest: fMcCpT2krnhSePKVG5MYnPkZiZQ=
+
+Name: javadoc/org/eclipse/net4j/tcp/ssl/SSLUtil.html
+SHA1-Digest: Xfa9SfaxuLQKVzRtaYm8JSPzWkY=
+
+Name: javadoc/org/eclipse/net4j/jvm/IJVMChannel.html
+SHA1-Digest: AKDSLL2T3R702pxyxUyJpSgd9ts=
+
+Name: javadoc/org/eclipse/net4j/signal/heartbeat/package-frame.html
+SHA1-Digest: v0yJ+Hza8ya5BPTvSdxZC79SQZM=
+
+Name: javadoc/org/eclipse/net4j/ITransportConfigAware.html
+SHA1-Digest: 47Y4OauTksr5uCNJJSZL7Qvdy8c=
+
+Name: javadoc/org/eclipse/net4j/http/server/INet4jTransportServlet.htm
+ l
+SHA1-Digest: NJTby/iUDYxzJ5ZsdT4Thu4wY7o=
+
+Name: images/editor-5.png
+SHA1-Digest: yJ/Ssg9K/FH1y1opFC0WEwdOON8=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/SignalScheduledEvent.
+ html
+SHA1-Digest: H+RS0WLJD9mKzQCdqKVyOzN6n5E=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/SignalActor.html
+SHA1-Digest: nGaE/ei3rLZpQHcvt3qvchUOUv4=
+
+Name: javadoc/org/eclipse/net4j/ui/ConnectorContentProvider.html
+SHA1-Digest: eGnvJ+2mIPaGZNhS4wV6LV6jPZ8=
+
+Name: javadoc/org/eclipse/net4j/signal/SignalActor.html
+SHA1-Digest: D+Vo41BM0ZLzvg8Is1v+Dv4rzfI=
+
+Name: javadoc/org/eclipse/net4j/ui/package-use.html
+SHA1-Digest: ioapzeGwGNXmVTGly8NeRfeCt9A=
+
+Name: images/empty.gif
+SHA1-Digest: FtG9UriqKieAxjvslLmhZxaNoZU=
+
+Name: plugin.properties
+SHA1-Digest: xsQVX8sYL/5ZcsljvPwcCn1ZbAA=
+
+Name: javadoc/org/eclipse/net4j/signal/security/class-use/Authenticati
+ onRequest.html
+SHA1-Digest: V/+IQcBGc8rl3cxHi7mX7Oz1YDQ=
+
+Name: javadoc/org/eclipse/net4j/signal/ISignalProtocol.html
+SHA1-Digest: f6qk3KvJosRLBYC+vP4pYXi0ypQ=
+
+Name: javadoc/org/eclipse/net4j/signal/confirmation/class-use/Confirma
+ tionIndication.html
+SHA1-Digest: 7pk9v97CPEPFT66ov8PnfXYUBEk=
+
+Name: javadoc/org/eclipse/net4j/http/HTTPUtil.html
+SHA1-Digest: 6SjixFtD0zgIf/IZEFm3n1O6vOo=
+
+Name: javadoc/org/eclipse/net4j/tcp/ITCPActiveSelectorListener.html
+SHA1-Digest: HEg4HQeOY6EgBXoUEvghGR1YSnQ=
+
+Name: org/eclipse/net4j/doc/online/package-info.class
+SHA1-Digest: yWC7r68uwn1kOHUoXl8bnIk/PaY=
+
+Name: javadoc/org/eclipse/spi/net4j/Channel.ReceiveSerializer.html
+SHA1-Digest: sBrYrDfwHJpJ59NBCeasuRG/i2A=
+
+Name: javadoc/org/eclipse/net4j/http/common/class-use/IHTTPConnector.h
+ tml
+SHA1-Digest: o8SHx0qibniXWxcNF19NB02JF7o=
+
+Name: plugin.xml
+SHA1-Digest: V+fXcOrrASd3+3Am9WkpB/Wb0G0=
+
+Name: org/eclipse/net4j/doc/Legal.class
+SHA1-Digest: RV1CxY/PR6KORp5F2MzstetFZMo=
+
+Name: javadoc/org/eclipse/net4j/signal/wrapping/class-use/GZIPStreamWr
+ apperInjector.html
+SHA1-Digest: Hgw81Tghl6aUmv7MRlbNg0r7GWM=
+
+Name: javadoc/org/eclipse/net4j/http/server/HTTPServerUtil.html
+SHA1-Digest: G3aJsMAvHXq7EJtVHP9/m8eEriU=
+
+Name: javadoc/org/eclipse/net4j/class-use/TransportConfigurator.html
+SHA1-Digest: dVR8b84sD51LhCxx/buPW+cZvak=
+
+Name: javadoc/org/eclipse/net4j/buffer/package-summary.html
+SHA1-Digest: kZG7Dj/P9hCahJ3rv8EpeuccYtM=
+
+Name: javadoc/org/eclipse/net4j/signal/confirmation/ConfirmationPrompt
+ .html
+SHA1-Digest: nRAA9anY72oP6omkgsz1wU9SwHc=
+
+Name: intro/overview.xml
+SHA1-Digest: WQpjYkMIZOTkns2UgcusJJ+7nnY=
+
+Name: javadoc/org/eclipse/net4j/jvm/IJVMAcceptorManager.html
+SHA1-Digest: m8KbgOEMZg0F9U5aPvHvrBAdHAw=
+
+Name: javadoc/org/eclipse/net4j/tcp/class-use/TCPUtil.AcceptorData.htm
+ l
+SHA1-Digest: s5xGk4InlBLukumFz5zb8CYZk4c=
+
+Name: html/editor.css
+SHA1-Digest: M8vYgxngIGkclKjS8hxJHIoVyi0=
+
+Name: javadoc/org/eclipse/net4j/channel/class-use/ChannelOutputStream.
+ html
+SHA1-Digest: +rxfUu5coImXvq0dyDg38dqbtZU=
+
+Name: javadoc/constant-values.html
+SHA1-Digest: e9Q98X4laLDlDFLuaw8FoOLdNTA=
+
+Name: javadoc/org/eclipse/net4j/connector/IConnector.html
+SHA1-Digest: DAZg/gP8iWDI+eJUJaB/q4gIh0w=
+
+Name: javadoc/org/eclipse/net4j/ui/class-use/ConnectorContentProvider.
+ html
+SHA1-Digest: PlFLpP/WJEjAQUr1Qjtsaac3kmc=
+
+Name: javadoc/org/eclipse/net4j/jvm/JVMUtil.html
+SHA1-Digest: rc5XLEwZPKPnK17NMpkVafgB+zk=
+
+Name: javadoc/org/eclipse/net4j/signal/heartbeat/class-use/HeartBeatPr
+ otocol.Server.Factory.html
+SHA1-Digest: LMpwLvN63xwBIdUlaKqnks8bKAU=
+
+Name: javadoc/org/eclipse/net4j/ui/class-use/Net4jItemProvider.html
+SHA1-Digest: PYqmzKtfdqqIg4VMlEZfFEx1Hh0=
+
+Name: javadoc/org/eclipse/spi/net4j/Connector.html
+SHA1-Digest: 3FcHidymzHxT1tCe8PTlt70/dac=
+
+Name: javadoc/org/eclipse/net4j/http/common/package-frame.html
+SHA1-Digest: O47Vpt/Ils8Vr9OjMjwBS5S5Dlw=
+
+Name: javadoc/org/eclipse/net4j/channel/ChannelException.html
+SHA1-Digest: ZoYIlfV4Z+In5RYiv9O6ANWYc+A=
+
+Name: javadoc/org/eclipse/net4j/buffer/package-frame.html
+SHA1-Digest: 7s0CPqWYYWjBSKoyHZTCs7no5fc=
+
+Name: javadoc/org/eclipse/spi/net4j/ClientProtocolFactory.html
+SHA1-Digest: gvCkHAIJfwy3V32UVWtXHhn6+rM=
+
+Name: javadoc/org/eclipse/net4j/acceptor/class-use/IAcceptor.html
+SHA1-Digest: BUZqlIP4UTKdUrEWPygtAN3CGis=
+
+Name: javadoc/org/eclipse/net4j/signal/SignalProtocol.TimeoutChangedEv
+ ent.html
+SHA1-Digest: qbrt9XN1L10jrDPdLxJdWkKgbzk=
+
+Name: images/editor-top2.png
+SHA1-Digest: q//trvmaxvb2fXSvmgM3qp7mjio=
+
+Name: javadoc/org/eclipse/net4j/package-use.html
+SHA1-Digest: jXCoMxwkn5p/Lc5q1TWM8j+Bwmo=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/InternalChannelMultiplex
+ er.html
+SHA1-Digest: TwT9AId3R7o9PYujsGN/pIhXRSg=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/Channel.SendQueue.html
+SHA1-Digest: NL02WGOVz6crGvyVTMsA7RUUHSQ=
+
+Name: intro/css/graphics/net4j_hov.gif
+SHA1-Digest: 5qHhcDOQvLlxp5uFcJAMrtk/KL0=
+
+Name: javadoc/org/eclipse/spi/net4j/package-summary.html
+SHA1-Digest: aJgLnnfCYsqNFzR6MHscd3XBsyI=
+
+Name: images/package.gif
+SHA1-Digest: T/VnZK0uN4EGrfk89ht3lAyYk/4=
+
+Name: javadoc/org/eclipse/net4j/signal/wrapping/StreamWrapperInjector.
+ html
+SHA1-Digest: yhHCI2CCGfgqhFN7xZN9jVvyG+Q=
+
+Name: javadoc/org/eclipse/net4j/http/server/package-summary.html
+SHA1-Digest: rJFehUFsciQtZeMnhBo9FLvQOMw=
+
+Name: javadoc/org/eclipse/net4j/signal/security/package-summary.html
+SHA1-Digest: cHuThvGgHhOtWReYWR+btSl5JJI=
+
+Name: images/category.gif
+SHA1-Digest: tWMy7m7xHgoFADXHrBSTfBpQEPI=
+
+Name: javadoc/org/eclipse/net4j/tcp/ITCPSelector.html
+SHA1-Digest: 51llOy9qEAv8pe2P9TSgOl7X40U=
+
+Name: javadoc/org/eclipse/net4j/ui/package-summary.html
+SHA1-Digest: wxxpykedyGnqT5YpO4RuDjmtgO0=
+
+Name: javadoc/org/eclipse/net4j/connector/ConnectorException.html
+SHA1-Digest: M7i7yxpYqHfvLB9vh424z6pSFvA=
+
+Name: javadoc/org/eclipse/net4j/connector/class-use/IConnector.html
+SHA1-Digest: f5cYRsp0GBAvG+jRYoUWHndiT5A=
+
+Name: javadoc/org/eclipse/net4j/signal/wrapping/package-summary.html
+SHA1-Digest: ylU4jK5pdBxDr8S/MzIlFK0I1R0=
+
+Name: javadoc/org/eclipse/net4j/signal/heartbeat/HeartBeatProtocol.Ser
+ ver.Factory.html
+SHA1-Digest: sBVwbA049D7kTiiDeDoAF0oPKto=
+
+Name: javadoc/org/eclipse/net4j/acceptor/package-summary.html
+SHA1-Digest: xC+4NExMgcWRoYX9x2eRyPf338s=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/Channel.ReceiveSerialize
+ r.html
+SHA1-Digest: xL2x14utYtmTMt4bn7luaMxPr+I=
+
+Name: javadoc/org/eclipse/net4j/buffer/IBufferProvider.Introspection.h
+ tml
+SHA1-Digest: bp8Y7VPv2RIYaITh8SyjfLZ4c6o=
+
+Name: javadoc/org/eclipse/net4j/signal/wrapping/XORStreamWrapperInject
+ or.html
+SHA1-Digest: FTHofm98zFZDsTTJNmvAO4FouM8=
+
+Name: javadoc/org/eclipse/net4j/signal/SignalProtocol.html
+SHA1-Digest: PjoXzrRStqM7Y81KRTjvXaV+tYc=
+
+Name: javadoc/org/eclipse/net4j/package-frame.html
+SHA1-Digest: hF4xnoyPQBhipKDGVUw7fdvjkdc=
+
+Name: javadoc/org/eclipse/net4j/signal/Indication.html
+SHA1-Digest: RPL3ea7sD1B5oO4U0ogQ8CEGys4=
+
+Name: javadoc/org/eclipse/spi/net4j/InternalChannel.html
+SHA1-Digest: nBKlUm4Bf7uC6BD6XkTyTk7O3Vs=
+
+Name: html/online/index.html
+SHA1-Digest: dDuGgcvvzG+iHP12iyGvIHw3g4E=
+
+Name: javadoc/index.html
+SHA1-Digest: BjYMVsNuZ7PsNxjcVpt21cdhrj0=
+
+Name: javadoc/org/eclipse/net4j/ui/FactoryTypeContentProvider.html
+SHA1-Digest: z0ZfJ4lqgmr213La4Rhlv1u8h8E=
+
+Name: javadoc/org/eclipse/net4j/jvm/class-use/IJVMAcceptorManager.html
+SHA1-Digest: QIFzHLGdMwQ/QZGVn5qjtyljFBM=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/AcceptorFactory.html
+SHA1-Digest: b1N5cPKwyJ6HkhIfXkm5ENThQbM=
+
+Name: javadoc/org/eclipse/spi/net4j/Acceptor.html
+SHA1-Digest: DxmeUyChD3bclWsvFLCmAKX+bq0=
+
+Name: javadoc/org/eclipse/net4j/protocol/IProtocol.html
+SHA1-Digest: 0HnnuzYoIh3N7wlE+VKSexwKHQg=
+
+Name: images/plus.gif
+SHA1-Digest: iRiOIdHIOkljp1bl1pBr7ZMGhIw=
+
+Name: javadoc/org/eclipse/net4j/signal/Request.html
+SHA1-Digest: j0Irn9F6zfN/W8aQPqrvUkaCc98=
+
+Name: javadoc/org/eclipse/net4j/http/server/IHTTPAcceptor.html
+SHA1-Digest: dgUSWKHN/Gi/TgkAZAMlvVfq3zY=
+
+Name: javadoc/org/eclipse/net4j/signal/heartbeat/package-use.html
+SHA1-Digest: pUMV/1p5Kl9fOsniSxfEBe0TwJY=
+
+Name: javadoc/org/eclipse/net4j/tcp/ITCPPassiveSelectorListener.html
+SHA1-Digest: 8VrM6QqMVnFnhMwzZxZErhsAXo4=
+
+Name: javadoc/org/eclipse/net4j/ITransportConfig.html
+SHA1-Digest: IFKo1SwunsBPzIJsS0Iz0g4997M=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/ServerProtocolFactory.ht
+ ml
+SHA1-Digest: VWQqee0UsESJ0jutK78uCT+RmpY=
+
+Name: javadoc/help-doc.html
+SHA1-Digest: IygQB8XZhEuAFGkZBUH+FpkS8LU=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/Connector.html
+SHA1-Digest: il9KloddJZA+nnqmyDjaRkU2OP8=
+
+Name: javadoc/org/eclipse/net4j/signal/package-use.html
+SHA1-Digest: nhx7M7gItdGk6aOZcw61/XGkKtk=
+
+Name: javadoc/org/eclipse/net4j/ui/class-use/Net4jItemProvider.RemoveA
+ ction.html
+SHA1-Digest: 4Ad7XleEv3F5F7OHSTWn7ocidFE=
+
+Name: images/callout-2.png
+SHA1-Digest: dzjP9xg6PD422X/k2FbM4U4cu6E=
+
+Name: intro/css/net4j.css
+SHA1-Digest: LHratghA5WVozSvIsGYSMhs8nr4=
+
+Name: images/callout-6.png
+SHA1-Digest: OJ0WUboOF5OnrLl8T+rEaLAYf70=
+
+Name: javadoc/org/eclipse/net4j/tcp/ITCPNegotiationContext.html
+SHA1-Digest: QgxlMB5Ach3I/B5Ajnx7zdCHdss=
+
+Name: org/eclipse/net4j/doc/reference/api/Javadoc.class
+SHA1-Digest: reeG/vopCZE+gUgkyb63b7Mtc8Q=
+
+Name: javadoc/org/eclipse/net4j/http/server/class-use/HTTPServerUtil.h
+ tml
+SHA1-Digest: ZlZgYtJJcrvB9pLzVNV6oOZIG5w=
+
+Name: javadoc/org/eclipse/net4j/class-use/ITransportConfigAware.html
+SHA1-Digest: a6vTfyl5ZWaTIJuDI4auiBXMlws=
+
+Name: javadoc/org/eclipse/net4j/connector/package-summary.html
+SHA1-Digest: mulUguj/kDoZFX+xgT3PweTf5UY=
+
+Name: javadoc/org/eclipse/net4j/TransportInjector.html
+SHA1-Digest: oScyyRr2u7w1owiam97FPAJfss4=
+
+Name: images/editor-4.png
+SHA1-Digest: Da4tx7k0ablgvzHax11QYi94A9k=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/Acceptor.html
+SHA1-Digest: 0600qyJZQrmoQrIiXKoSXnW8oU0=
+
+Name: javadoc/org/eclipse/net4j/protocol/package-use.html
+SHA1-Digest: wrvjnoqqziblrubz5s04C206lN4=
+
+Name: javadoc/org/eclipse/net4j/signal/confirmation/class-use/Confirma
+ tionPrompt.html
+SHA1-Digest: 5IU7zj8RwANmL23x3mHzCms5LLs=
+
+Name: javadoc/org/eclipse/net4j/jvm/package-frame.html
+SHA1-Digest: mOBTC++kFNomuX+MY7Br3pDla3E=
+
+Name: javadoc/org/eclipse/net4j/signal/security/package-use.html
+SHA1-Digest: gTXL2SLFZ6AgGOFe+P7459WrlaM=
+
+Name: javadoc/org/eclipse/net4j/buffer/class-use/IBufferPool.Introspec
+ tion.html
+SHA1-Digest: 3XwP1QKsxAJppgUvCQMyvZFmQqA=
+
+Name: javadoc/org/eclipse/net4j/class-use/FactoriesProtocolProvider.ht
+ ml
+SHA1-Digest: vlo7SOFBrfaLAVZCiixTGx6R/0A=
+
+Name: javadoc/org/eclipse/net4j/class-use/ContainerProtocolProvider.Se
+ rver.html
+SHA1-Digest: 4AaIdWLE3PgzHN9XrPOQpUA2gn4=
+
+Name: images/editor-top-left-xml.png
+SHA1-Digest: gLC/ZUa+DCzeTET8W3+SeBR7YY0=
+
+Name: javadoc/org/eclipse/net4j/signal/wrapping/package-use.html
+SHA1-Digest: VM8tQm/NI8otnXiu3U272Da6IUY=
+
+Name: javadoc/org/eclipse/net4j/channel/class-use/IChannel.html
+SHA1-Digest: JOGIX3skyZ/0747g9sgLCirzKqg=
+
+Name: javadoc/overview-summary.html
+SHA1-Digest: uE6YMLXAdJGzezxFSfZDLfkKuAU=
+
+Name: org/eclipse/net4j/doc/online/Homepage.class
+SHA1-Digest: seiDbD9EQ93c08c2nBFrT1kLGjE=
+
+Name: javadoc/org/eclipse/net4j/connector/class-use/ConnectorCredentia
+ lsInjector.html
+SHA1-Digest: 3H3Ej+x9kOw9W9j5HjdPwkOWms8=
+
+Name: javadoc/org/eclipse/net4j/FactoriesProtocolProvider.html
+SHA1-Digest: C1oXLZncIvG/ICYSOJ+Jr1mtoxg=
+
+Name: javadoc/org/eclipse/net4j/signal/IndicationWithMonitoring.html
+SHA1-Digest: XaFrulr5lHqCLMM4ooI2ZKMP1WU=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/InternalConnector.html
+SHA1-Digest: H+q48WyF1q84bEMucYlGAZr4pIc=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/MonitorProgressIndica
+ tion.html
+SHA1-Digest: 1iAirpBI7r/pHnhYH07wgSl6U0o=
+
+Name: javadoc/org/eclipse/net4j/tcp/ssl/package-summary.html
+SHA1-Digest: Zct2HS1rxOcp1LW4Ed34PXetIQM=
+
+Name: javadoc/org/eclipse/net4j/buffer/class-use/BufferOutputStream.ht
+ ml
+SHA1-Digest: qrtK23lgYbfw/9xVwKe+wv8kAK4=
+
+Name: javadoc/org/eclipse/net4j/acceptor/package-use.html
+SHA1-Digest: G7uNc0/1pAkJxKZ4sTgwOTPcvJQ=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/SignalFinishedEvent.h
+ tml
+SHA1-Digest: tInSg0qRtohvYDcbzUpAlhRQY80=
+
+Name: javadoc/org/eclipse/net4j/signal/security/AuthenticationIndicati
+ on.html
+SHA1-Digest: M6D3sPTMRQ5Yx5RcavR936emoGA=
+
+Name: javadoc/org/eclipse/net4j/ui/Net4jItemProvider.RemoveAction.html
+SHA1-Digest: F8cyhQ+tVo7RbEGUpMC7W928QEg=
+
+Name: javadoc/org/eclipse/net4j/buffer/IBuffer.html
+SHA1-Digest: ufaDfcE5aU0UrwN4hzWhJ29TZxc=
+
+Name: javadoc/org/eclipse/net4j/http/package-use.html
+SHA1-Digest: luycqkvICKR0GQVq4fxP0NuyEe4=
+
+Name: images/external.gif
+SHA1-Digest: JqhGU4UN3TsY/t6Pfe+ZC+t3+jM=
+
+Name: javadoc/org/eclipse/net4j/protocol/IProtocol2.html
+SHA1-Digest: vmQYCNc1bg+BzbPqjjmw2vXtMT0=
+
+Name: javadoc/org/eclipse/net4j/channel/class-use/ChannelException.htm
+ l
+SHA1-Digest: oSeHRBzf1zqTbp+EvSuypPCCSNY=
+
+Name: javadoc/package-list
+SHA1-Digest: cfajaTU1IC/VCbEPZ/dU1kyNPMU=
+
+Name: javadoc/org/eclipse/net4j/http/common/package-summary.html
+SHA1-Digest: id+xdjJtqs0f3IjbLYrPRU1pdFI=
+
+Name: images/background-2.gif
+SHA1-Digest: Eiyw6jMDAfPEJo7YZRr9p2ZETzQ=
+
+Name: javadoc/org/eclipse/net4j/connector/IConnectorStateEvent.html
+SHA1-Digest: 3NXDzVErzoV+Fr1WwIE6M/t6flg=
+
+Name: html/book.css
+SHA1-Digest: xtlzwuFvc2POSJfxb28mj6OP53s=
+
+Name: javadoc/org/eclipse/net4j/http/server/INet4jTransportServlet.Req
+ uestHandler.html
+SHA1-Digest: JBszV1qVlSNHZ7bOO/9bSKZS8Fs=
+
+Name: javadoc/org/eclipse/net4j/buffer/class-use/IBufferProvider.html
+SHA1-Digest: ZCG5TnqfwredTu7zfu6C2YFJg0w=
+
+Name: javadoc/org/eclipse/net4j/signal/security/package-frame.html
+SHA1-Digest: mTJIrx8cCszIYKe8gRN4UaB+H8k=
+
+Name: javadoc/org/eclipse/net4j/signal/SignalCounter.html
+SHA1-Digest: oS3M+RvUjVP4SUXfZMxd36nk7QA=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/MonitorCanceledIndica
+ tion.html
+SHA1-Digest: LtdD6VyNE2SwDlURtJY7P4QRbXk=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/Channel.ReceiverWork.htm
+ l
+SHA1-Digest: Pc9SrT1jTYdBu9AxRHrTKdcYicc=
+
+Name: about.html
+SHA1-Digest: p77WoW/tpuGpE+dfbaEuLp+bH/o=
+
+Name: javadoc/org/eclipse/net4j/channel/class-use/IChannelMultiplexer.
+ html
+SHA1-Digest: WqchKmmkLQfn0P5UwnYC7Q7R7Y8=
+
+Name: javadoc/org/eclipse/net4j/tcp/class-use/ITCPSelector.html
+SHA1-Digest: 2PBIqWKU7Wv3J3VH4d0Mis1mc6Q=
+
+Name: javadoc/org/eclipse/net4j/tcp/package-use.html
+SHA1-Digest: 1fxy+LUllJC2cJqA9LOgFQ5IDso=
+
+Name: javadoc/org/eclipse/net4j/jvm/package-summary.html
+SHA1-Digest: 7KuKuGQPVXd/n5BtTm8FZyTjroE=
+
+Name: modeling32.png
+SHA1-Digest: HNz2oYHVqQEUObJQL6sh+Ik2jak=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/ConnectorFactory.html
+SHA1-Digest: StcqII1ARH1YlD9CZWuqD5atgU8=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/MonitorProgressReques
+ t.html
+SHA1-Digest: ye7DHbt8AdqfgRMWdlNokucYYmA=
+
+Name: javadoc/org/eclipse/net4j/signal/package-summary.html
+SHA1-Digest: aZIEujt5Wbxn8STMrjSFK7TqxJI=
+
+Name: javadoc/org/eclipse/net4j/protocol/ProtocolVersionException.html
+SHA1-Digest: gdLF2lYUX63KF1WZmjMv83W53Go=
+
+Name: javadoc/org/eclipse/net4j/class-use/ILocationAware.Location.html
+SHA1-Digest: O+axhQM52YOkUUB1LGbiToDKYts=
+
+Name: javadoc/allclasses-frame.html
+SHA1-Digest: ShkxSuguCC508TjHNCf6uBcYqLY=
+
+Name: html/Overview.html
+SHA1-Digest: 8rv6qOUuRE28MMBQgoiCwHjgRrg=
+
+Name: javadoc/org/eclipse/net4j/signal/SignalReactor.html
+SHA1-Digest: S21zGyoOM1tAx09nS5NbYznFYM0=
+
+Name: javadoc/org/eclipse/net4j/jvm/IJVMAcceptor.html
+SHA1-Digest: xqhhgFlHXuSIZ4jmvJGbvm1lBiU=
+
+Name: images/editor-top1.png
+SHA1-Digest: ZvHxPD1eKQmBPFXB/TFhIOIKdhk=
+
+Name: javadoc/org/eclipse/net4j/tcp/ITCPAcceptor.html
+SHA1-Digest: ypVe2HjS5MeRAD8cdY399VtOa80=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/Indication.html
+SHA1-Digest: n0IwhyjzQz+YcS4l8Rk/vjCn9Xk=
+
+Name: javadoc/org/eclipse/net4j/tcp/TCPUtil.AcceptorData.html
+SHA1-Digest: 9HrfKHD7CQMyJ84+Ietm3Uj6tn0=
+
+Name: javadoc/org/eclipse/net4j/protocol/package-summary.html
+SHA1-Digest: oAwpmxM87h5eZVsHkKvSmmZZvfs=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/InternalAcceptor.html
+SHA1-Digest: rBGY8ETJ2dz6FsZ8BV4znFiIP3w=
+
+Name: javadoc/org/eclipse/net4j/connector/class-use/IConnectorEvent.ht
+ ml
+SHA1-Digest: 0WCREwQPLYmGDyEt878Pe93duOU=
+
+Name: images/editor-close.png
+SHA1-Digest: Mrn+NBmpKzX5vWJv1w4hkfedAO0=
+
+Name: javadoc/org/eclipse/net4j/signal/heartbeat/HeartBeatProtocol.Ser
+ ver.html
+SHA1-Digest: riGKA1zTKNZJ/BDElvb0xVOTo0w=
+
+Name: javadoc/org/eclipse/net4j/connector/ConnectorState.html
+SHA1-Digest: ofn/QBonfJJKUpVal9+wQyGrae8=
+
+Name: javadoc/org/eclipse/net4j/signal/MonitorProgressRequest.html
+SHA1-Digest: UGQ3474CZ7nK3zd/rMOIPKmsTrQ=
+
+Name: javadoc/org/eclipse/net4j/signal/package-frame.html
+SHA1-Digest: fpDJGynfIdk6AisxPwN+NMk950s=
+
+Name: images/formatter-xml.gif
+SHA1-Digest: 9RQFS8x5u2sIRfrKCwtnP1dq+yw=
+
+Name: javadoc/org/eclipse/net4j/class-use/ContainerProtocolProvider.ht
+ ml
+SHA1-Digest: G/9p466l6PFMr00LUolg/+QCkP0=
+
+Name: javadoc/org/eclipse/spi/net4j/Protocol.html
+SHA1-Digest: 2wr2wSa7TxDBQn2NbaaT81itat0=
+
+Name: html/tree.css
+SHA1-Digest: FfNgNLSGX1zMTpGkfIpBfaNHMN8=
+
+Name: javadoc/org/eclipse/net4j/ContainerProtocolProvider.html
+SHA1-Digest: PfU5fp6dnbQPHARo1KuIe9W832o=
+
+Name: javadoc/org/eclipse/net4j/buffer/class-use/IBufferPool.html
+SHA1-Digest: gzvWrhPtr0jMvS/XT9Xl/DW4NfU=
+
+Name: javadoc/org/eclipse/net4j/http/package-summary.html
+SHA1-Digest: krgGuUfOLQnk3yiyexIxDTs/qwM=
+
+Name: javadoc/org/eclipse/net4j/buffer/IBufferPool.html
+SHA1-Digest: jPh9x6TJFS/usf8wKD3o7ZJYdzY=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/InternalChannel.html
+SHA1-Digest: rhL9mMh1cpJ6gOs5sJqJaK8dp/Y=
+
+Name: images/extpoint.gif
+SHA1-Digest: SBkzvDAQCFwktUxTSH+pGSLBc3Y=
+
+Name: javadoc/org/eclipse/spi/net4j/InternalChannelMultiplexer.html
+SHA1-Digest: hXflUnijN3DDEYKcHUh8uRUqO14=
+
+Name: javadoc/org/eclipse/net4j/http/server/class-use/INet4jTransportS
+ ervlet.RequestHandler.html
+SHA1-Digest: DK16Vp/ei4RMh6IT0SXL2LWo16s=
+
+Name: javadoc/org/eclipse/net4j/protocol/package-frame.html
+SHA1-Digest: jnER4m/tAk31adkavAsNKPT1cA4=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/Request.html
+SHA1-Digest: OQjfwE2aB5RZRF0uXtZSrx1hTZw=
+
+Name: javadoc/org/eclipse/net4j/channel/package-frame.html
+SHA1-Digest: MJSbf0FPcQv5ev3NPZwZeX7IgcQ=
+
+Name: org/eclipse/net4j/doc/Overview.class
+SHA1-Digest: Xa3+y87UpwFmsDVuqZKk0Ma5rVE=
+
+Name: org/eclipse/net4j/doc/reference/package-info.class
+SHA1-Digest: mgWK1+fAzqfx6jjbMWy41SfHIRs=
+
+Name: javadoc/org/eclipse/net4j/ui/class-use/AcceptorContentProvider.h
+ tml
+SHA1-Digest: dEjz53rPMfDv8ftVpPJEPJeFr4g=
+
+Name: images/editor-right.png
+SHA1-Digest: jaDu+vlD0iNLNFV3X3AQD5GKs9o=
+
+Name: javadoc/org/eclipse/net4j/connector/class-use/IServerConnector.h
+ tml
+SHA1-Digest: aEfMAXNaMrJ1oVq1Xow8ekVaB8E=
+
+Name: javadoc/org/eclipse/net4j/buffer/IBufferHandler.html
+SHA1-Digest: rXTn2RfvLITwQ92YJ7igeOGhUB8=
+
+Name: javadoc/org/eclipse/net4j/http/package-frame.html
+SHA1-Digest: RtlHJPK53V2tIx92GahjxmXlbuw=
+
+Name: images/article.gif
+SHA1-Digest: wXpf0u+VEaRMQ7lDbJGGifgC5zI=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/Signal.html
+SHA1-Digest: njLu6D40j3gjsV0aW4fXQT+vuaQ=
+
+Name: javadoc/org/eclipse/net4j/ui/Net4jItemProvider.html
+SHA1-Digest: RXiOVbKgkqhAsHKH0j6PcTrjXxc=
+
+Name: javadoc/org/eclipse/net4j/protocol/IProtocolProvider.html
+SHA1-Digest: Nb3mAsjXqlpb+mTipb1+hZd74+U=
+
+Name: images/editor-top-right.png
+SHA1-Digest: 9ag5XeU9D3wU+rO6Z4i/zGcHrlA=
+
+Name: javadoc/org/eclipse/net4j/buffer/BufferInputStream.html
+SHA1-Digest: MCphdGJHnSL1bgLdo/c1MFZMl9o=
+
+Name: javadoc/org/eclipse/net4j/signal/security/AuthenticatingSignalPr
+ otocol.html
+SHA1-Digest: tF1tb5CC7ahYEBKYU6Dd9j8xQBw=
+
+Name: images/callout-1.png
+SHA1-Digest: muMgJaMHh6OnapccQWQOFOO4Tlo=
+
+Name: images/plugin_obj.gif
+SHA1-Digest: nXViBvs0rZgAY6/rjL8zVaXwc5I=
+
+Name: javadoc/org/eclipse/net4j/signal/security/class-use/Authenticati
+ onIndication.html
+SHA1-Digest: 5WLM4O7HuqBg2F8rJNW4rD+ICC0=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/InternalChannel.SendQueu
+ eEvent.html
+SHA1-Digest: uB6u5oRq3Vwh7l/7IsO5BCkuJNc=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/Protocol.html
+SHA1-Digest: A/nQcKsX4MJ1WcKi+8hIWz8tGMc=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/ClientProtocolFactory.ht
+ ml
+SHA1-Digest: joFAdbSW5FHe7TiVecQKwoQ9x58=
+
+Name: javadoc/org/eclipse/net4j/protocol/class-use/IProtocol2.html
+SHA1-Digest: 07bhmm21XIz09anPs51We6s5FsI=
+
+Name: images/callout-5.png
+SHA1-Digest: BzYo9vA9iW9eesjoaxzmO1RoP0c=
+
+Name: javadoc/stylesheet.css
+SHA1-Digest: PvfOcXqVNZLSvVWK0zTnT/KnJGA=
+
+Name: images/formatter-tree-properties.gif
+SHA1-Digest: JhyhBIshmBlIOnl9HVuO0elz/no=
+
+Name: images/callout-9.png
+SHA1-Digest: mB0JQRmtsCUbDTIBsS7ggxwfk8E=
+
+Name: javadoc/org/eclipse/net4j/tcp/class-use/TCPUtil.ConnectorData.ht
+ ml
+SHA1-Digest: +AkS/p4mQGOxcxedAns8NAD4tHQ=
+
+Name: javadoc/org/eclipse/spi/net4j/Channel.ReceiverWork.html
+SHA1-Digest: c4olozgBN+9cMFUlLwUDtA6I7o8=
+
+Name: javadoc/org/eclipse/net4j/connector/class-use/IConnectorStateEve
+ nt.html
+SHA1-Digest: rQ41MxxS08yyBb3tsLsnPfGZaso=
+
+Name: javadoc/org/eclipse/net4j/class-use/ContainerProtocolProvider.Cl
+ ient.html
+SHA1-Digest: STkIjs7JrRxuSR4YPL9T1wvf758=
+
+Name: images/editor-3.png
+SHA1-Digest: Am1+w7HaDuBpTiiNL9RELZh3NeA=
+
+Name: javadoc/org/eclipse/net4j/http/server/package-use.html
+SHA1-Digest: 6mHgS2HTVQbWrJuyhGEP37vRQWE=
+
+Name: images/empty-icon.gif
+SHA1-Digest: B++qWZzjXNAVb4+314Qxv31y17k=
+
+Name: javadoc/org/eclipse/spi/net4j/Channel.SendQueue.html
+SHA1-Digest: St0NBGzypO/2dtr7ekgeHEncJzo=
+
+Name: javadoc/index-all.html
+SHA1-Digest: lQPjKzij1uoHmckS/iRRA2jGOPA=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/RemoteException.html
+SHA1-Digest: 7IUYwJKyaMAAI18iSuQ+tOzRIbY=
+
+Name: javadoc/org/eclipse/net4j/connector/IConnectorEvent.html
+SHA1-Digest: P1/tnvmT36a9SwX3HQjzzvXBwgM=
+
+Name: javadoc/org/eclipse/net4j/connector/IServerConnector.html
+SHA1-Digest: glkGdlFuaoKBuwczOVwTea/rYUs=
+
+Name: javadoc/org/eclipse/net4j/signal/RequestWithConfirmation.html
+SHA1-Digest: okeBMVXQGdnfavUKx8HYToYQeIQ=
+
+Name: javadoc/org/eclipse/net4j/signal/confirmation/package-frame.html
+SHA1-Digest: obyRedhyHGo5edcWsMO2RXDGtPE=
+
+Name: javadoc/org/eclipse/net4j/signal/Signal.html
+SHA1-Digest: uRezmYqdEcyf073zJuHzwSteM2M=
+
+Name: javadoc/org/eclipse/spi/net4j/class-use/InternalChannel.SendQueu
+ eEvent.Type.html
+SHA1-Digest: N8M2dnXP9zHQQh0xMB+Y/aWJ5zA=
+
+Name: javadoc/org/eclipse/net4j/buffer/class-use/IBuffer.html
+SHA1-Digest: 5GHlU8dJFRj/AT9oyXaEkhzXAQo=
+
+Name: images/backward.png
+SHA1-Digest: yn8Zegdy2EmVfsBZR+Rnjywe2sU=
+
+Name: javadoc/org/eclipse/spi/net4j/InternalChannel.SendQueueEvent.Typ
+ e.html
+SHA1-Digest: j1vX6HMtOalsiRao+64OBVvijog=
+
+Name: javadoc/org/eclipse/spi/net4j/InternalChannel.SendQueueEvent.htm
+ l
+SHA1-Digest: kl334vEC0CduQLEBN1u+U5XlelE=
+
+Name: javadoc/org/eclipse/net4j/buffer/class-use/IBufferProvider.Intro
+ spection.html
+SHA1-Digest: +5bE5FOdkkYw3JyyfM8CEA0+AdQ=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/RequestWithMonitoring
+ .html
+SHA1-Digest: BYn2Z4TkJOQ7U6PB+gfLI+IlT6g=
+
+Name: images/background-1.gif
+SHA1-Digest: OCxa52WLC++xtO7JUHq/6Rd/+Kw=
+
+Name: javadoc/org/eclipse/net4j/signal/wrapping/GZIPStreamWrapperInjec
+ tor.html
+SHA1-Digest: 1RvC7UWvE5NTozcg151W77I31zE=
+
+Name: javadoc/org/eclipse/net4j/tcp/class-use/ITCPNegotiationContext.h
+ tml
+SHA1-Digest: vRIj/moMM8Mp8yi5BtUUSL1Zxxo=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/MonitorCanceledReques
+ t.html
+SHA1-Digest: 6oAC1lVF5BR6hjGJRvAGj/3d/K8=
+
+Name: javadoc/org/eclipse/net4j/jvm/class-use/IJVMAcceptor.html
+SHA1-Digest: PQAgkKAwPymmkTinoQGq4U1Or+E=
+
+Name: javadoc/org/eclipse/net4j/tcp/class-use/ITCPAcceptor.html
+SHA1-Digest: 4zxImqw04E7UCfGwNp5PwY9G9eg=
+
+Name: javadoc/org/eclipse/net4j/buffer/IBufferProvider.html
+SHA1-Digest: DUIYF4aGsabxM4AGsduJXlKn3UE=
+
+Name: javadoc/org/eclipse/net4j/ContainerProtocolProvider.Server.html
+SHA1-Digest: 78t7vkUt+8yX7qRgHklaBeYJZTE=
+
+Name: javadoc/org/eclipse/net4j/channel/IChannel.html
+SHA1-Digest: MS5YiWHy817f7RcnABocerYEqVI=
+
+Name: javadoc/org/eclipse/net4j/connector/ConnectorCredentialsInjector
+ .html
+SHA1-Digest: z8toc0ZBMYoIbc6O6KSQ6+ddSAQ=
+
+Name: javadoc/org/eclipse/net4j/signal/heartbeat/package-summary.html
+SHA1-Digest: rLnTlimF5EC/6je3XL5oSCLgaBI=
+
+Name: javadoc/org/eclipse/net4j/tcp/ssl/package-frame.html
+SHA1-Digest: wG91w831BjWWNkXXfTQe1dfh5WE=
+
+Name: javadoc/org/eclipse/net4j/signal/confirmation/ConfirmationIndica
+ tion.html
+SHA1-Digest: GMDsWi1V+sSC6HHSHVIAk1N9ULA=
+
+Name: javadoc/org/eclipse/net4j/buffer/BufferOutputStream.html
+SHA1-Digest: Y0yFWgNwfodRNTEpLG5yQ39C5t8=
+
+Name: javadoc/org/eclipse/net4j/http/class-use/HTTPUtil.html
+SHA1-Digest: ausUyy1ZvIrh1o5W2+HgMfcspIg=
+
+Name: javadoc/org/eclipse/net4j/buffer/class-use/BufferInputStream.htm
+ l
+SHA1-Digest: mgCwBcbsM87IqE0YOyHLHoEhSCY=
+
+Name: javadoc/org/eclipse/net4j/protocol/class-use/IProtocolProvider.h
+ tml
+SHA1-Digest: p+em0NvP5ZxNLYXycN9sGoB+nsU=
+
+Name: javadoc/org/eclipse/net4j/tcp/class-use/ITCPActiveSelectorListen
+ er.html
+SHA1-Digest: xjgcdIXcgLvsvsK90V7fDmEMa7s=
+
+Name: javadoc/org/eclipse/net4j/signal/heartbeat/HeartBeatProtocol.htm
+ l
+SHA1-Digest: /P4Z2u0Sthp/KKRMnQrM30+/o2k=
+
+Name: javadoc/deprecated-list.html
+SHA1-Digest: Xz3/URfyAzqHGm8SJaPAwIJVV14=
+
+Name: javadoc/org/eclipse/net4j/signal/class-use/SignalProtocol.html
+SHA1-Digest: JmZoPtrPPHMhObGs+jpivReJOzw=
+
+Name: images/editor-bottom-right.png
+SHA1-Digest: DfM8DAYaRNcJkw7xiuVLCEffZYM=
+
+Name: javadoc/org/eclipse/net4j/signal/MonitorCanceledRequest.html
+SHA1-Digest: MKoC1Krz0YEh0flhjphdyWyfLTY=
+

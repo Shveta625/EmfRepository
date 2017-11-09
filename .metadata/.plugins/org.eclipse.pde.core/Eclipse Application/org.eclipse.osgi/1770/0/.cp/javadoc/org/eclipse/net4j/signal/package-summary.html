@@ -1,0 +1,284 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+
+<title>org.eclipse.net4j.signal (Net4j Signalling Platform Documentation)</title>
+<meta name="date" content="">
+<link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
+<script type="text/javascript" src="../../../../script.js"></script>
+</head>
+<body>
+<script type="text/javascript"><!--
+    try {
+        if (location.href.indexOf('is-external=true') == -1) {
+            parent.document.title="org.eclipse.net4j.signal (Net4j Signalling Platform Documentation)";
+        }
+    }
+    catch(err) {
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar.top">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.top.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../overview-summary.html">Overview</a></li>
+<li class="navBarCell1Rev">Package</li>
+<li>Class</li>
+<li><a href="package-use.html">Use</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../org/eclipse/net4j/protocol/package-summary.html">Prev&nbsp;Package</a></li>
+<li><a href="../../../../org/eclipse/net4j/signal/confirmation/package-summary.html">Next&nbsp;Package</a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?org/eclipse/net4j/signal/package-summary.html" target="_top">Frames</a></li>
+<li><a href="package-summary.html" target="_top">No&nbsp;Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<a name="skip.navbar.top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<div class="header">
+<h1 title="Package" class="title">Package&nbsp;org.eclipse.net4j.signal</h1>
+<div class="docSummary">
+<div class="block">A framework for request/response based communication on top of the Net4j transport layer.</div>
+</div>
+<p>See:&nbsp;<a href="#package.description">Description</a></p>
+</div>
+<div class="contentContainer">
+<ul class="blockList">
+<li class="blockList">
+<table class="typeSummary" border="0" cellpadding="3" cellspacing="0" summary="Interface Summary table, listing interfaces, and an explanation">
+<caption><span>Interface Summary</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Interface</th>
+<th class="colLast" scope="col">Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/ISignalProtocol.html" title="interface in org.eclipse.net4j.signal">ISignalProtocol</a>&lt;INFRA_STRUCTURE&gt;</td>
+<td class="colLast">
+<div class="block">A <a href="../../../../org/eclipse/net4j/protocol/IProtocol.html" title="interface in org.eclipse.net4j.protocol"><code>protocol</code></a> that consists of a number of stream-based <a href="../../../../org/eclipse/net4j/signal/Signal.html" title="class in org.eclipse.net4j.signal"><code>signals</code></a>.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList">
+<table class="typeSummary" border="0" cellpadding="3" cellspacing="0" summary="Class Summary table, listing classes, and an explanation">
+<caption><span>Class Summary</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Class</th>
+<th class="colLast" scope="col">Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/Indication.html" title="class in org.eclipse.net4j.signal">Indication</a></td>
+<td class="colLast">
+<div class="block">Represents the receiver side of a one-way <a href="../../../../org/eclipse/net4j/signal/Signal.html" title="class in org.eclipse.net4j.signal"><code>signal</code></a>, i.e., one with no response.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/IndicationWithMonitoring.html" title="class in org.eclipse.net4j.signal">IndicationWithMonitoring</a></td>
+<td class="colLast">
+<div class="block">Represents the receiver side of a two-way <a href="../../../../org/eclipse/net4j/signal/IndicationWithResponse.html" title="class in org.eclipse.net4j.signal"><code>signal</code></a> with additional support for remote progress monitoring.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/IndicationWithResponse.html" title="class in org.eclipse.net4j.signal">IndicationWithResponse</a></td>
+<td class="colLast">
+<div class="block">Represents the receiver side of a two-way <a href="../../../../org/eclipse/net4j/signal/SignalReactor.html" title="class in org.eclipse.net4j.signal"><code>signal</code></a>, i.e., one with a response.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/MonitorCanceledIndication.html" title="class in org.eclipse.net4j.signal">MonitorCanceledIndication</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/MonitorCanceledRequest.html" title="class in org.eclipse.net4j.signal">MonitorCanceledRequest</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/MonitorProgressIndication.html" title="class in org.eclipse.net4j.signal">MonitorProgressIndication</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/MonitorProgressRequest.html" title="class in org.eclipse.net4j.signal">MonitorProgressRequest</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/Request.html" title="class in org.eclipse.net4j.signal">Request</a></td>
+<td class="colLast">
+<div class="block">Represents the sender side of a one-way <a href="../../../../org/eclipse/net4j/signal/Signal.html" title="class in org.eclipse.net4j.signal"><code>signal</code></a>, i.e., one with no response.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/RequestWithConfirmation.html" title="class in org.eclipse.net4j.signal">RequestWithConfirmation</a>&lt;RESULT&gt;</td>
+<td class="colLast">
+<div class="block">Represents the sender side of a two-way <a href="../../../../org/eclipse/net4j/signal/SignalActor.html" title="class in org.eclipse.net4j.signal"><code>signal</code></a>, i.e., one with a response.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/RequestWithMonitoring.html" title="class in org.eclipse.net4j.signal">RequestWithMonitoring</a>&lt;RESULT&gt;</td>
+<td class="colLast">
+<div class="block">Represents the sender side of a two-way <a href="../../../../org/eclipse/net4j/signal/IndicationWithResponse.html" title="class in org.eclipse.net4j.signal"><code>signal</code></a> with additional support for remote progress monitoring.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/Signal.html" title="class in org.eclipse.net4j.signal">Signal</a></td>
+<td class="colLast">
+<div class="block">Represents a single communications use-case in the scope of a <a href="../../../../org/eclipse/net4j/signal/ISignalProtocol.html" title="interface in org.eclipse.net4j.signal"><code>signal protocol</code></a>.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/SignalActor.html" title="class in org.eclipse.net4j.signal">SignalActor</a></td>
+<td class="colLast">
+<div class="block">Represents the sender side of a <a href="../../../../org/eclipse/net4j/signal/Signal.html" title="class in org.eclipse.net4j.signal"><code>signal</code></a>.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/SignalCounter.html" title="class in org.eclipse.net4j.signal">SignalCounter</a></td>
+<td class="colLast">
+<div class="block">Provides <a href="../../../../org/eclipse/net4j/signal/Signal.html" title="class in org.eclipse.net4j.signal"><code>signal</code></a> execution counts  when
+ <a href="../../../../../../org.eclipse.net4j.util.doc/javadoc/org/eclipse/net4j/util/event/Notifier.html?is-external=true#addListener-org.eclipse.net4j.util.event.IListener-" title="class or interface in org.eclipse.net4j.util.event"><code>attached</code></a> to a <a href="../../../../org/eclipse/net4j/signal/ISignalProtocol.html" title="interface in org.eclipse.net4j.signal"><code>signal protocol</code></a>.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/SignalFinishedEvent.html" title="class in org.eclipse.net4j.signal">SignalFinishedEvent</a>&lt;INFRA_STRUCTURE&gt;</td>
+<td class="colLast">
+<div class="block">An <a href="../../../../../../org.eclipse.net4j.util.doc/javadoc/org/eclipse/net4j/util/event/IEvent.html?is-external=true" title="class or interface in org.eclipse.net4j.util.event"><code>event</code></a> fired from a <a href="../../../../org/eclipse/net4j/signal/ISignalProtocol.html" title="interface in org.eclipse.net4j.signal"><code>signal protocol</code></a> when
+ the local execution of a scheduled <a href="../../../../org/eclipse/net4j/signal/SignalFinishedEvent.html#getSignal--"><code>signal</code></a> has finished.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/SignalProtocol.html" title="class in org.eclipse.net4j.signal">SignalProtocol</a>&lt;INFRA_STRUCTURE&gt;</td>
+<td class="colLast">
+<div class="block">The default implementation of a <a href="../../../../org/eclipse/net4j/signal/ISignalProtocol.html" title="interface in org.eclipse.net4j.signal"><code>signal protocol</code></a>.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/SignalProtocol.TimeoutChangedEvent.html" title="class in org.eclipse.net4j.signal">SignalProtocol.TimeoutChangedEvent</a></td>
+<td class="colLast">
+<div class="block">An <a href="../../../../../../org.eclipse.net4j.util.doc/javadoc/org/eclipse/net4j/util/event/IEvent.html?is-external=true" title="class or interface in org.eclipse.net4j.util.event"><code>event</code></a> fired from a <a href="../../../../org/eclipse/net4j/signal/ISignalProtocol.html" title="interface in org.eclipse.net4j.signal"><code>signal protocol</code></a> when the protocol <a href="../../../../org/eclipse/net4j/signal/ISignalProtocol.html#setTimeout-long-"><code>timeout</code></a>
+ has been changed.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/SignalReactor.html" title="class in org.eclipse.net4j.signal">SignalReactor</a></td>
+<td class="colLast">
+<div class="block">Represents the receiver side of a <a href="../../../../org/eclipse/net4j/signal/Signal.html" title="class in org.eclipse.net4j.signal"><code>signal</code></a>.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/SignalScheduledEvent.html" title="class in org.eclipse.net4j.signal">SignalScheduledEvent</a>&lt;INFRA_STRUCTURE&gt;</td>
+<td class="colLast">
+<div class="block">An <a href="../../../../../../org.eclipse.net4j.util.doc/javadoc/org/eclipse/net4j/util/event/IEvent.html?is-external=true" title="class or interface in org.eclipse.net4j.util.event"><code>event</code></a> fired from a <a href="../../../../org/eclipse/net4j/signal/ISignalProtocol.html" title="interface in org.eclipse.net4j.signal"><code>signal protocol</code></a> when
+ a <a href="../../../../org/eclipse/net4j/signal/SignalScheduledEvent.html#getSignal--"><code>signal</code></a> has been scheduled for local execution.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList">
+<table class="typeSummary" border="0" cellpadding="3" cellspacing="0" summary="Exception Summary table, listing exceptions, and an explanation">
+<caption><span>Exception Summary</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Exception</th>
+<th class="colLast" scope="col">Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../../org/eclipse/net4j/signal/RemoteException.html" title="class in org.eclipse.net4j.signal">RemoteException</a></td>
+<td class="colLast">
+<div class="block">An exception that wraps an exception that has been thrown during the execution of a remote <a href="../../../../org/eclipse/net4j/signal/SignalReactor.html" title="class in org.eclipse.net4j.signal"><code>signal</code></a>.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<a name="package.description">
+<!--   -->
+</a>
+<h2 title="Package org.eclipse.net4j.signal Description">Package org.eclipse.net4j.signal Description</h2>
+<div class="block">A framework for request/response based communication on top of the Net4j transport layer.</div>
+</div>
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar.bottom">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.bottom.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../overview-summary.html">Overview</a></li>
+<li class="navBarCell1Rev">Package</li>
+<li>Class</li>
+<li><a href="package-use.html">Use</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../org/eclipse/net4j/protocol/package-summary.html">Prev&nbsp;Package</a></li>
+<li><a href="../../../../org/eclipse/net4j/signal/confirmation/package-summary.html">Next&nbsp;Package</a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?org/eclipse/net4j/signal/package-summary.html" target="_top">Frames</a></li>
+<li><a href="package-summary.html" target="_top">No&nbsp;Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<a name="skip.navbar.bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small><i class="copyright">Copyright (c) 2014 Eike Stepper (Berlin, Germany) and others.<br>All rights reserved. This program and the accompanying materials are made available under the terms of the Eclipse Public License v1.0 which accompanies this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html</i></small></p>
+</body>
+</html>

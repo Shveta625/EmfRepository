@@ -1,0 +1,29 @@
+.heading{
+	text-align: center;
+	color: #73AD21;
+}
+.center {
+    margin: auto;
+    width: 40%;
+    border: 3px solid #73AD21;
+    padding: 0 30px 10px 130px;
+    font-weight: bold;
+    color: #73AD21
+}
+
+form {
+    margin: 0 0 0px 200px;
+    width: 40%;
+    border: 3px solid #73AD21;
+    padding: 20px 30px 10px 130px;
+    font-weight: bold;
+    color: #73AD21
+}
+
+button, .button{	
+    color: #73AD21;
+	margin: auto;
+}
+.registerUser{
+	background-color: ghostwhite;
+}

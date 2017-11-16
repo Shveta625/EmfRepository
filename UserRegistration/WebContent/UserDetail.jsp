@@ -7,20 +7,29 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@page import="dao.LoginDao"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
+ <link type="text/css" rel="stylesheet" href="Style.css" />
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>User Details</h2>
 	<script type="text/javascript">
 	function edit(){
 		document.getElementById("firstName").readOnly = false;
+		document.getElementById("lastName").readOnly = false;
+		document.getElementById("address").readOnly = false;
+		document.getElementById("phone").readOnly = false;
+		document.getElementById("email").readOnly = false;
+		document.getElementById("username").readOnly = false;
+		document.getElementById("password").readOnly = false;
+		document.getElementById("submit").style.display = "block";
 	}
 	</script>
 
+	<h2 class="heading">User Details</h2>
+	<button onclick="edit()" style="margin-left: 200px">Edit detail</button>
 	<form action="UserDetailUpdateServlet" method="post">
 		First name:<input type="text" id="firstName" name="firstName"
 			value=<%=((UserBean) request.getSession().getAttribute("userDetails")).getFirstName()%> readonly>
@@ -37,11 +46,8 @@
 		<br> Password:<input type="password" id="password" name="password"
 			value=<%=((UserBean) request.getSession().getAttribute("userDetails")).getPassword()%> readonly>
 		<br>
-		<input type="submit" value="Submit">
+		<input type="submit" value="Submit" id="submit" style="display: none;">
 	</form>
 	
-		<button onclick="edit()">Edit</button>
-
-
 </body>
 </html>

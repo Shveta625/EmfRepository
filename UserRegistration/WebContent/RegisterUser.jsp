@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <jsp:useBean id="obj" class="bean.UserBean" />
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
+ <link type="text/css" rel="stylesheet" href="Style.css" />
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </script>
@@ -13,7 +14,7 @@
 
 	<script>
 		function validate() {
-			var name = document.getElementById("firstName").value;
+			var firstName = document.getElementById("firstName").value;
 			var username = document.getElementById("username").value;
 			var pwd = document.getElementById("password").value;
 			var confPwd = document.getElementById("confPassword").value;
@@ -31,12 +32,9 @@
 				return false;
 			}
 		}
-	</script>
-
-	<script>
+		
 		function showForm(a) {
 			if (a == "form2") {
-				alert("abc: " + document.getElementById("form2").style.display == "none");
 				document.getElementById("form1").style.display = "none";
 				document.getElementById("form2").style.display = "block";
 				document.getElementById("form3").style.display = "none";
@@ -49,36 +47,43 @@
 				document.getElementById("form2").style.display = "none";
 				document.getElementById("form3").style.display = "none";
 			}
-
-			alert("after: " + document.getElementById("form2").style.display == "none");
 		}
 		
 		function submitForms(){
-
+			var valid=	validate();
+			if(valid){
 			  $('#form2 :input').not(':submit').clone().hide().appendTo('#form1');
 			  $('#form3 :input').not(':submit').clone().hide().appendTo('#form1');
 			    document.getElementById("form1").submit();
+			}
 		}
 	</script>
-
-	<form id="form1" action="RegisterUserServlet" method="post">
+<h1 class="heading">Enter User Details</h1>
+	<form id="form1" action="RegisterUserServlet" method="post" >
 		First name:<input type="text" id="firstName" name="firstName">
+		<br>
 		Last name:<input type="text" id="lastName" name="lastName">
+		<br>
 		DOB:<input type="date" id="dob" name="dob">
+		<br>
 		Age:<input type="number" id="age" name="age">
+		<br>		
 		
 		<button type="button" onclick="showForm('form2')">Next</button>
 	</form>
-	<form id="form2" action="RegisterUserServlet" method="post">
+	<form id="form2" action="RegisterUserServlet" method="post" style="display: none;">
 		Address:<input type="text" id="address" name="address">
+		<br>
 		Phone:<input type="text" id="phone" name="phone">
+		<br>
 		Email:<input type="text" id="email" name="email">
+		<br>
 		
 		<button type="button" onclick="showForm('form1')">Previous</button>
 		<button type="button" onclick="showForm('form3')">Next</button>
 	</form>
 	<form id="form3" action="RegisterUserServlet" method="post"
-		onsubmit="submitForms()">
+		onsubmit="submitForms()" style="display: none;">
 		<br> Role:<select id="role" name="role">
 			<option value="admin">Admin</option>
 			<option value="user">User</option>
@@ -88,8 +93,8 @@
 			name="password"> <br> Confirm Password:<input
 			type="password" id="confPassword" name="confPassword"> <br>
 			
-		<button type="button" onclick="showForm('form2')">Previous</button>
-		<input type="Submit" value="Submit">
+		<button type="button" onclick="showForm('form2')">Previous</button> 
+		<button type="button" onclick="submitForms()">Submit</button>
 	</form>
 
 </body>

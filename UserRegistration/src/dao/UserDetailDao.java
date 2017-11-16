@@ -20,4 +20,18 @@ public class UserDetailDao {
 		}
 		return rs;
 	}
+	public static int updateDetails(String username, String detail, String update) {
+
+		int result = 0;
+		try {
+			Connection con = ConnectionProvider.getCon();
+			PreparedStatement ps=con.prepareStatement("UPDATE REGISTERED_USERS SET " +detail+"=? WHERE USERNAME=?");
+			ps.setString(1,update);
+			ps.setString(2,username);
+			result = ps.executeUpdate();
+		} catch (Exception e) {
+
+		}
+		return result;
+	}
 }

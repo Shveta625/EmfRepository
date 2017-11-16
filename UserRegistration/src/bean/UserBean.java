@@ -7,7 +7,7 @@ public class UserBean {
 //		ADMIN, USER;
 //	}
 	String firstName;
-	String lasttName;
+	String lastName;
 	String email;
 	String address;
 	String phone;
@@ -30,11 +30,11 @@ public class UserBean {
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-	public String getLasttName() {
-		return lasttName;
+	public String getLastName() {
+		return lastName;
 	}
-	public void setLasttName(String lasttName) {
-		this.lasttName = lasttName;
+	public void setLastName(String lasttName) {
+		this.lastName = lasttName;
 	}
 	public String getEmail() {
 		return email;

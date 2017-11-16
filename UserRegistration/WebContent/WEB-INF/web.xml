@@ -9,7 +9,7 @@
 	</welcome-file-list>
 	<servlet>
 		<servlet-name>RegisterUserServlet</servlet-name>
-		<servlet-class>servlets.RegisterUserServlet</servlet-class>
+		<servlet-class>controller.RegisterUserServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>RegisterUserServlet</servlet-name>
@@ -17,10 +17,18 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>LoginServlet</servlet-name>
-		<servlet-class>servlets.LoginServlet</servlet-class>
+		<servlet-class>controller.LoginServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>LoginServlet</servlet-name>
 		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UserDetailUpdateServlet</servlet-name>
+		<servlet-class>controller.UserDetailUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserDetailUpdateServlet</servlet-name>
+		<url-pattern>/UserDetailUpdateServlet</url-pattern>
 	</servlet-mapping>
 </web-app>
